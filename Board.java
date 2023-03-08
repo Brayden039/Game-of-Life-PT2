@@ -115,7 +115,7 @@ public class Board
     }
     else
     {
-      int numAlive = 0;
+      int numAlive = -1;
       for (int i = r - 1; i <= r + 1; i++)
       {
         for (int j = c - 1; j <= c + 1; j++)
